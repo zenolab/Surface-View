@@ -1,4 +1,4 @@
-package com.surfaceview_draw.zenolab.surfaceviewdraw.ui.mainactivity3
+package com.surfaceview_draw.zenolab.surfaceviewdraw.ui.point
 
 
 import android.os.Bundle
@@ -28,7 +28,6 @@ class RoundTextFragment : Fragment() {
 
         Toast.makeText(activity,"Custom View", Toast.LENGTH_SHORT).show();
        return roundDrawView
-
     }
 
 

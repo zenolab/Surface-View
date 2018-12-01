@@ -5,23 +5,28 @@
 
     <group android:checkableBehavior="single">
         <item
-                android:id="@+id/nav_camera"
+                android:id="@+id/nav_draw"
                 android:icon="@drawable/ic_brush_black_24dp"
                 android:title="Blackboard"/>
         <item
-                android:id="@+id/nav_gallery"
+                android:id="@+id/nav_color"
                 android:icon="@drawable/ic_format_paint_black_24dp"
                 android:title="Paint over"/>
         <item
-                android:id="@+id/nav_slideshow"
+                android:id="@+id/nav_round"
                 android:icon="@drawable/ic_format_color_text_black_24dp"
                 android:title="Round"/>
         <item
-                android:id="@+id/nav_manage"
+                android:id="@+id/nav_space"
                 android:icon="@drawable/ic_star_half_black_24dp"
                 android:title="Cosmic"/>
         <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_grid"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Grid"/>
+
+        <item
+                android:id="@+id/nav_host"
                 android:icon="@drawable/ic_home_black_24dp"
                 android:title="Home"/>
 
@@ -29,7 +34,7 @@
 
     <item android:title="Communicate">
         <menu>
-                <!--Zeno-lab https://bitbucket.org/  Example -->
+                <!--Zeno-lab Examples -->
         </menu>
     </item>
 

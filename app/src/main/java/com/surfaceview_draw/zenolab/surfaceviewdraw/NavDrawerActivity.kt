@@ -4,8 +4,6 @@ import android.content.Context
 import android.media.AudioManager
 import android.os.Bundle
 import android.os.Handler
-import android.os.Looper
-import android.os.Message
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
 import android.support.v4.app.Fragment
@@ -19,7 +17,7 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_nav_drawer.*
 import kotlinx.android.synthetic.main.app_bar_nav_drawer.*
 
-import com.surfaceview_draw.zenolab.surfaceviewdraw.ui.mainactivity3.*
+import com.surfaceview_draw.zenolab.surfaceviewdraw.ui.point.*
 import kotlinx.android.synthetic.main.content_nav_drawer.*
 
 class NavDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -69,21 +67,29 @@ class NavDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         var selectedFragment = Fragment()
         when (item.itemId) {
-            R.id.nav_camera -> {
+            R.id.nav_draw -> {
                 selectedFragment = TouchSurfaceFragment()
                 setTitle("Draw")
             }
-            R.id.nav_gallery -> {
+            R.id.nav_color -> {
                 selectedFragment =  ColorSurfaceFragment();
+                setTitle("Color");
             }
-            R.id.nav_slideshow -> {
+            R.id.nav_round -> {
                 selectedFragment =  RoundTextFragment();
+                setTitle("Round");
             }
-            R.id.nav_manage -> {
+            R.id.nav_space -> {
                 selectedFragment =  SpaceFragment();
+                setTitle("Cosmic");
             }
-            R.id.nav_share -> {
+            R.id.nav_grid -> {
+                selectedFragment =  BlankFragment();
+                setTitle("Grid");
 
+
+            }R.id.nav_host -> {
+                    //Host
             }
         }
         replaceFragment(selectedFragment)

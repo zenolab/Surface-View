@@ -1,4 +1,4 @@
-package com.surfaceview_draw.zenolab.surfaceviewdraw.ui.mainactivity3
+package com.surfaceview_draw.zenolab.surfaceviewdraw.ui.point
 
 
 import android.os.Bundle
@@ -6,10 +6,8 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import android.widget.Toast
 import com.surfaceview_draw.zenolab.feature.SpaceSurfaceView
-import com.surfaceview_draw.zenolab.surfaceviewdraw.R
 
 
 class SpaceFragment : Fragment() {

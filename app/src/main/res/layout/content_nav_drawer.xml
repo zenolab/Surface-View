@@ -10,15 +10,6 @@
         tools:showIn="@layout/app_bar_nav_drawer"
         tools:context=".NavDrawerActivity">
 
-    <TextView
-            android:id="@+id/textView"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:text="Chose screen"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
     <com.surfaceview_draw.zenolab.surfaceviewdraw.util.СustomVolumeBarView
             android:id="@+id/volumeBar"
             android:layout_width="match_parent"
